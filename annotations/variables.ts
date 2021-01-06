@@ -31,3 +31,9 @@ let point: { x: number, y: number } = {
     x: 20,
     y: 20,
 };
+
+// Assign type of function to the variable - specify the arguments and types and then the expected return value
+// We are returning nothing here, so we return void
+const logNumber: (i: number) => void = (i:number) => {
+    console.log(i);
+};
