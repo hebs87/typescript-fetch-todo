@@ -1,7 +1,7 @@
 const drink = {
-    color: 'brown',
-    carbonated: true,
-    sugar: 40
+  color: 'brown',
+  carbonated: true,
+  sugar: 40
 };
 
 // Tuple format - declare the order of types in square brackets to ensure the order cannot be mixed
