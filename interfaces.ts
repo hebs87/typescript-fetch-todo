@@ -22,12 +22,20 @@ const oldCivic = {
 const pepsi = {
     color: 'brown',
     carbonated: true,
+<<<<<<< HEAD
     sugar: 40,
+=======
+    suger: 40,
+>>>>>>> origin/master
     summary(): string {
         return `
             Color: ${this.color}
             Carbonated? ${this.carbonated}
+<<<<<<< HEAD
             Sugar Content: ${this.sugar}g
+=======
+            Sugar Content: ${this.suger}g
+>>>>>>> origin/master
         `
     }
 }
